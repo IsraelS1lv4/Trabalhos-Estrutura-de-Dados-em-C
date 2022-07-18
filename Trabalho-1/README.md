@@ -29,7 +29,7 @@ Por exemplo, se lista L1 → 3 → 7 → 2 → 4 → // e lista L2 → 7 → 9 �
 L1 = lst_diferenca(L1,L2) altera a primeira lista para L1 → 3 → 2 → 4 → //.
 
 A seguir, execute o seguinte programa.
-
+```
 #include <stdio.h>
 #include<stdlib.h>
 #include “lista.h”
@@ -67,6 +67,7 @@ int main(void){
    system(“PAUSE”);
    return 0;
 }
+```
 
 2ª ) Implemente o Tipo Abstrato de Dados (TAD) “pilha.h” usando Listas Encadeadas
 (ver slides sobre Pilhas) e acrescente as seguintes funções:
@@ -81,6 +82,7 @@ protótipo:
 Pilha* empilha_elem_comuns(Lista* l1, Lista* l2);
 
 A seguir, execute o seguinte programa.
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include “lista.h”
@@ -117,6 +119,7 @@ int main(void){
    system(“PAUSE”);
    return 0;
 }
+```
 
 3ª ) Implemente o Tipo Abstrato de Dados (TAD) “fila1.h”(implementação com vetor) e
 “fila2.h” (implementação com listas encadeadas) e acrescente as seguintes funções:
@@ -130,6 +133,7 @@ função deve obedecer ao protótipo:
 Fila* inverte_fila(Fila* f);
 
 A seguir, execute o seguinte programa com as TAD's “fila1.h” e “fila2.h”
+```
 #include <stdio.h>
 #include<stdlib.h>
 #include “fila1.h” //executar também com “fila2.h”
@@ -155,3 +159,4 @@ int main(void){
    system(“PAUSE”);
    return 0;
 }
+```
