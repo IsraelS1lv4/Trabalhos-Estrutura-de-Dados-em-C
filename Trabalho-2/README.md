@@ -62,4 +62,6 @@ int main(void){
 calcule o tempo de cada um para ordenar vetores de tamanho 10^3, 10^4, 10^5 e 10^6 com os
 elementos dispostos de três formas: crescente, decrescente, e aleatória. Elabore um
 pequeno relatório com os dados obtidos (no máximo, com três páginas – formato PDF).
-Obs.: O tempo deve ser dado em milissegundos
+Obs.: O tempo deve ser dado em milissegundos.
+
+<strong>Obs.: Nota nesse trabalho: 9</strong>
